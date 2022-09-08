@@ -13,3 +13,71 @@
  *= require_tree .
  *= require_self
  */
+
+ .container{
+  background-color: rgb(148, 179, 253);
+  background-color: rgb(236, 197, 251);
+  background-color: rgb(127, 188, 210);
+ }
+
+.grid-item{
+  background-color: rgba(215, 216, 224, 0.726);
+  background-color: rgb(205, 240, 234);
+  background-color: rgb(148, 179, 253);
+  background-color: rgb(165, 241, 233);
+  background-color: rgb(225, 255, 238);
+  background-color: rgb(185, 131, 255);
+  background-color: rgb(153, 254, 255);
+  background-color: whitesmoke;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 5) 2px 2px 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  width: 50px;
+}
+
+.grid-item p{
+  padding: 0;
+  margin: 0;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  background-color: rgb(250, 244, 183);
+  border: rgb(255, 180, 180);
+}
+
+.check{
+  box-shadow: none;
+  background-color: rgb(153, 254, 255);
+  background-color: rgb(249, 249, 249);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.check:hover{
+  box-shadow: none;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(148, 179, 253);
+  background-color: rgb(116, 141, 166);
+  box-shadow: rgba(0, 0, 0, 6) 2px 2px 7px;
+}
+
+.hd{
+  font-weight: bold;
+  font-size: 24px;
+  background-color: rgb(148, 179, 253);
+}
+
+.foot{
+  font-size: 18px;
+  background-color: rgb(148, 179, 253);
+}
+
+.base{
+  background-color: rgb(248, 250, 252);
+}

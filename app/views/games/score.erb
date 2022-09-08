@@ -1,0 +1,22 @@
+
+
+<div id="newpg" class="col-12 mt-5 justify-content-center">
+  <div class= "col-6 mx-auto" class="w-100 p-3">
+
+    <div class="card text-center">
+      <div class="card-header hd">
+        <%= @message %>
+      </div>
+      <div class="card-body base">
+        <h5 class="card-title">'<%= params[:word] %>'</h5>
+        <h5 class="card-title">Definition: </h5>
+        <p class="card-text"><%= @definition %></p>
+      </div>
+      <div class="card-footer text-muted foot">
+        <%= @time_attempt.round(2) %> secs ago
+      </div>
+    </div>
+
+
+  </div>
+</div>
